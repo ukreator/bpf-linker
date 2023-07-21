@@ -82,6 +82,7 @@ jobs:
           repository: aya-rs/aya
           path: aya
           submodules: recursive
+          ref: logs-wtf
 
       - name: Install dependencies
         if: matrix.rust == 'nightly'
