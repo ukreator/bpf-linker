@@ -41,3 +41,6 @@ default = ["rust-llvm"]
 
 [profile.release]
 debug = true
+
+[patch.crates-io]
+aya-rustc-llvm-proxy = { git = "https://github.com/aya-rs/rustc-llvm-proxy.git" }
